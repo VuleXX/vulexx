@@ -1,0 +1,170 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html{
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+}
+.header{
+    background-color: #25253E;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 0.64px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header__container{
+    padding: 25px 80px;
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+}
+.header-nav-list{
+    display: flex;
+    color: #9B9B9B;
+    margin-left: 165px;
+    margin-right: 560px;
+}
+.header-nav-list__item{
+    margin-right: 30px;
+}
+.header-nav-list__item:last-child{
+    margin-right: 0px;
+}
+
+.button{
+    border-style: solid;
+    padding: 11px 36px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+.auth_login{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    margin-right: 20px;
+}
+.auth_signup{
+    background-color: #3139CE;
+    border-color: #3139CE;
+    color: white;
+}
+
+/* HERO */
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #25253E;
+}
+.main__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    min-height: 40vw;
+}
+.hero-info__title{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero-info__subtitle{
+    padding-top: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 140%;
+}
+.info-rate{
+    display: inline-flex;
+    padding-top: 60px;
+    color: white;
+}
+.info-rate__wrapper{
+    padding-right: 24px;
+}
+
+.rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.rate-count__wrapper{
+    display: flex;
+}
+.rate-count{
+    font-size: 20px;
+    padding-right: 6px;
+}
+.rate-reviews{
+    font-size: 14px;
+}
+
+/* body styles */
+.crypto-info__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.crypto-info{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 178px;
+}
+.crypto-info__title{
+    color: #25253E;
+    font-size: 40px;
+    font-weight: 700;
+}
+.crypto-info__subtitle{
+    padding-top: 20px;
+    color:#9B9B9B;
+    font-size: 16px;
+}
+
+.coin__list{
+    display: inline-block;
+    padding-top: 60px;
+    padding-right: 150px;
+}
+.coin__image{
+    padding-right: 8px;
+}
+.coin__name{
+    padding-left: 8px;
+    color: #9B9B9B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+}
+.coin__item{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+.item__empty{
+    color: #545462;
+    display: flex;
+    justify-content: center;
+    width: 159px;
+    height: 37px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='50%25' fill='none' rx='8' ry='8' stroke='black' stroke-width='0.5' stroke-dasharray='8' stroke-dashoffset='11' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 8px;
+}
+/* crypto-blog */
+.crypto-blog{
+    display: flex;
+    padding-top: 120px;
+    max-width: 1440px;
+}
